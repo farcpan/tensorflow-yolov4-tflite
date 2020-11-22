@@ -1,0 +1,50 @@
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/8868fade-e6ed-4e3b-a539-af803c9e2d00.jpg 181,80,243,181,1 130,112,184,208,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/53a1ca1f-a114-4843-b194-ddbadc785ddf.jpg 22,127,86,223,1 131,112,186,213,1 193,141,238,229,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/4ad78088-2493-4220-a3dd-26af8adf74bc.jpg 139,120,179,203,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/19ea611b-092d-402c-86e0-94a9cbb99552.jpg 116,143,201,176,5
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/a604152f-bfc9-4081-96ad-64f183db5110.jpg 202,116,252,203,2 138,121,193,210,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/65641899-3106-4d99-a452-7c9bf05d6f96.jpg 144,147,170,190,5
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/d7cf41c1-d0a3-41ad-be83-60c1ad4a91b3.jpg 122,87,213,236,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/9e26d42c-dcb1-4999-a375-99e25123d4b5.jpg 131,118,190,216,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/83c5d093-bbb7-40b1-8ba3-c35d62e77b2b.jpg 138,126,183,198,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/1be31641-4c25-41e6-86df-579011b9b042.jpg 141,127,179,200,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/a9e4ff11-529b-483c-a26b-524d31ca1096.jpg 136,124,182,204,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/602ad688-eab7-4469-a342-c97edf6ea50c.jpg 126,93,196,229,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/336f6e82-e2b7-41da-8d29-7def758e27ca.jpg 141,119,182,197,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/f1ce5602-06de-4ab2-8cf0-7ad512b799a5.jpg 140,151,163,160,5
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/8fc31da4-89ef-4559-a28c-01d17e846a82.jpg 71,99,121,190,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/4c76649c-cbed-40f6-b75d-2907725af614.jpg 129,98,197,222,2 98,110,124,224,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/51f4e5bc-b81b-4090-ab8a-04468debaadd.jpg 138,112,181,205,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/ed1c7e58-f879-47a6-b536-8005e1a059c3.jpg 146,133,180,192,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/e29ce015-fe56-4d07-84b4-203ab2a9d7d9.jpg 140,131,177,194,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/70d84dd7-d23b-404c-8a29-2928526f9027.jpg 136,132,184,214,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/b3ec68b4-8655-4a2e-8601-5d87423a753b.jpg 137,122,181,206,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/ccb34cd1-a6d5-4919-9dc4-f4739178d77c.jpg 132,118,178,212,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/1ed6a252-e481-4c0f-951d-9957511da7f2.jpg 118,88,186,283,5 203,222,265,317,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/a8f6d757-93d4-4ea8-9b96-2ed0f934693a.jpg 138,122,184,200,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/1923987f-86df-4fc6-bf6b-010b5d1e61d0.jpg 130,110,186,209,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/8535b470-fd9c-4897-8f30-50f852518383.jpg 133,118,184,195,2 85,123,137,202,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/f70f7d42-bb44-4b10-a0f1-76701b868f53.jpg 239,132,274,189,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/8c5fd5a1-d375-47fb-8aa2-4732fecfe907.jpg 108,105,269,222,4
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/19ba9c58-0344-4917-af0d-16141ad66199.jpg 138,123,184,200,3
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/9a2e50af-2f3a-4b10-8149-5ca4249e6e3a.jpg 133,108,191,211,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/ed24866b-2e7e-4236-aa10-b4a8b4611530.jpg 87,121,250,187,7
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/9bb9612b-1b41-4126-a7eb-8fbc3aa2e12a.jpg 99,43,223,265,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/e277dc77-b15a-41aa-9f5b-ba009269c77a.jpg 132,106,187,206,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/0b2207be-288f-42a4-b463-e62ac3fe5068.jpg 110,77,212,263,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/cd8e88a8-fba5-4e67-9151-cf4e1c1a7cdd.jpg 71,245,108,311,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/ac7891bc-f320-4a11-871c-5a7bd25bf652.jpg 134,114,188,211,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/a40f81e5-0af6-4840-9b82-e17199644dc2.jpg 104,140,198,177,4
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/e55edaa8-6275-4720-b377-f00ea42a6dd6.jpg 135,158,228,203,4
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/1cfa44bd-3e00-4f23-bb8b-6ef6c4c84043.jpg 124,152,139,219,3 139,112,192,204,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/9ec60a8a-438d-4e81-8082-110dfb74de05.jpg 97,134,256,190,6
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/d2241d57-84fd-464c-a971-6d1560bca444.jpg 70,112,267,207,5
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/df5905e4-3abc-4fbc-aadc-132fa75e5efe.jpg 95,142,191,178,5
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/6ffa8846-590d-4a5c-a2f4-83b933b90213.jpg 113,72,223,264,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/181a8df7-084c-4a49-b908-89e8463d68d5.jpg 138,122,183,204,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/876a2e9b-2af1-4805-a067-9a03890cafc9.jpg 85,125,229,189,7
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/43643da8-e435-4593-8d47-d4f03c202148.jpg 133,115,184,205,2
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/6f5a93e8-3542-4509-9ab0-b6f603608add.jpg 137,125,179,195,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/424b99da-4c49-4c5b-ae87-2e9e685a7a73.jpg 137,109,192,201,1 280,108,317,197,1
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/c5be0631-d018-4be4-a089-f156aa67ccfb.jpg 144,151,237,180,4
+/gdrive/Workspace/TrafficLights/Workspace/keras-yolo3/training/images/b51d0413-9e07-4ff4-afb4-011aa54f60ec.jpg 128,127,174,196,3 221,119,267,188,3
