@@ -154,10 +154,10 @@ class Dataset(object):
                     annotation = self.annotations[index]
                     image, bboxes = self.parse_annotation(annotation)
                     (
-                        label_sbbox,
+                        #label_sbbox,
                         label_mbbox,
                         label_lbbox,
-                        sbboxes,
+                        #sbboxes,
                         mbboxes,
                         lbboxes,
                     ) = self.preprocess_true_boxes(bboxes)
@@ -388,9 +388,12 @@ class Dataset(object):
                 )
                 bboxes_xywh[best_detect][bbox_ind, :4] = bbox_xywh
                 bbox_count[best_detect] += 1
-        label_sbbox, label_mbbox, label_lbbox = label
-        sbboxes, mbboxes, lbboxes = bboxes_xywh
-        return label_sbbox, label_mbbox, label_lbbox, sbboxes, mbboxes, lbboxes
+        #label_sbbox, label_mbbox, label_lbbox = label
+        label_mbbox, label_lbbox = label
+        #sbboxes, mbboxes, lbboxes = bboxes_xywh
+        mbboxes, lbboxes = bboxes_xywh
+        #return label_sbbox, label_mbbox, label_lbbox, sbboxes, mbboxes, lbboxes
+        return label_mbbox, label_lbbox, mbboxes, lbboxes
 
     def __len__(self):
         return self.num_batchs
