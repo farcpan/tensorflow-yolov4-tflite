@@ -17,7 +17,6 @@ class Dataset(object):
         self.tiny = FLAGS.tiny
         self.strides, self.anchors, NUM_CLASS, XYSCALE = utils.load_config(FLAGS)
         self.dataset_type = dataset_type
-        print("[dataset.py] strides={}, anchors={}, NUM_CLASS={}, XYSCALE={}".format(self.strides, self.anchors, NUM_CLASS, XYSCALE))
 
         self.annot_path = (
             cfg.TRAIN.ANNOT_PATH if is_training else cfg.TEST.ANNOT_PATH
@@ -97,6 +96,7 @@ class Dataset(object):
                 dtype=np.float32,
             )
 
+            """
             batch_label_sbbox = np.zeros(
                 (
                     self.batch_size,
@@ -107,11 +107,14 @@ class Dataset(object):
                 ),
                 dtype=np.float32,
             )
+            """
             batch_label_mbbox = np.zeros(
                 (
                     self.batch_size,
-                    self.train_output_sizes[1],
-                    self.train_output_sizes[1],
+                    #self.train_output_sizes[1],
+                    #self.train_output_sizes[1],
+                    self.train_output_sizes[0],
+                    self.train_output_sizes[0],
                     self.anchor_per_scale,
                     5 + self.num_classes,
                 ),
@@ -120,17 +123,21 @@ class Dataset(object):
             batch_label_lbbox = np.zeros(
                 (
                     self.batch_size,
-                    self.train_output_sizes[2],
-                    self.train_output_sizes[2],
+                    #self.train_output_sizes[2],
+                    #self.train_output_sizes[2],
+                    self.train_output_sizes[1],
+                    self.train_output_sizes[1],
                     self.anchor_per_scale,
                     5 + self.num_classes,
                 ),
                 dtype=np.float32,
             )
 
+            """
             batch_sbboxes = np.zeros(
                 (self.batch_size, self.max_bbox_per_scale, 4), dtype=np.float32
             )
+            """
             batch_mbboxes = np.zeros(
                 (self.batch_size, self.max_bbox_per_scale, 4), dtype=np.float32
             )
@@ -156,22 +163,22 @@ class Dataset(object):
                     ) = self.preprocess_true_boxes(bboxes)
 
                     batch_image[num, :, :, :] = image
-                    batch_label_sbbox[num, :, :, :, :] = label_sbbox
+                    #batch_label_sbbox[num, :, :, :, :] = label_sbbox
                     batch_label_mbbox[num, :, :, :, :] = label_mbbox
                     batch_label_lbbox[num, :, :, :, :] = label_lbbox
-                    batch_sbboxes[num, :, :] = sbboxes
+                    #batch_sbboxes[num, :, :] = sbboxes
                     batch_mbboxes[num, :, :] = mbboxes
                     batch_lbboxes[num, :, :] = lbboxes
                     num += 1
                 self.batch_count += 1
-                batch_smaller_target = batch_label_sbbox, batch_sbboxes
+                #batch_smaller_target = batch_label_sbbox, batch_sbboxes
                 batch_medium_target = batch_label_mbbox, batch_mbboxes
                 batch_larger_target = batch_label_lbbox, batch_lbboxes
 
                 return (
                     batch_image,
                     (
-                        batch_smaller_target,
+                        #batch_smaller_target,
                         batch_medium_target,
                         batch_larger_target,
                     ),
