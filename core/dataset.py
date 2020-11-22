@@ -305,7 +305,8 @@ class Dataset(object):
                     5 + self.num_classes,
                 )
             )
-            for i in range(3)
+            #for i in range(3)
+            for i in range(2)
         ]
         bboxes_xywh = [np.zeros((self.max_bbox_per_scale, 4)) for _ in range(3)]
         bbox_count = np.zeros((3,))
