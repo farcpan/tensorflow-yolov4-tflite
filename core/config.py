@@ -35,7 +35,7 @@ __C.TRAIN.LR_INIT             = 1e-3
 __C.TRAIN.LR_END              = 1e-6
 __C.TRAIN.WARMUP_EPOCHS       = 2
 __C.TRAIN.FISRT_STAGE_EPOCHS    = 2
-__C.TRAIN.SECOND_STAGE_EPOCHS   = 3
+__C.TRAIN.SECOND_STAGE_EPOCHS   = 2
 
 
 
@@ -43,11 +43,11 @@ __C.TRAIN.SECOND_STAGE_EPOCHS   = 3
 __C.TEST                      = edict()
 
 __C.TEST.ANNOT_PATH           = "./data/dataset/trafficlights.txt"
-__C.TEST.BATCH_SIZE           = 2
+__C.TEST.BATCH_SIZE           = 16
 __C.TEST.INPUT_SIZE           = 320
 __C.TEST.DATA_AUG             = False
 __C.TEST.DECTECTED_IMAGE_PATH = "./data/detection/"
-__C.TEST.SCORE_THRESHOLD      = 0.25
+__C.TEST.SCORE_THRESHOLD      = 0.3
 __C.TEST.IOU_THRESHOLD        = 0.5
 
 
