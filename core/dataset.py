@@ -17,6 +17,7 @@ class Dataset(object):
         self.tiny = FLAGS.tiny
         self.strides, self.anchors, NUM_CLASS, XYSCALE = utils.load_config(FLAGS)
         self.dataset_type = dataset_type
+        print("[dataset.py] strides={}, anchors={}, NUM_CLASS={}, XYSCALE={}".format(self.strides, self.anchors, NUM_CLASS, XYSCALE))
 
         self.annot_path = (
             cfg.TRAIN.ANNOT_PATH if is_training else cfg.TEST.ANNOT_PATH
