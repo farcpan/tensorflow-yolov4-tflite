@@ -308,8 +308,10 @@ class Dataset(object):
             #for i in range(3)
             for i in range(2)
         ]
-        bboxes_xywh = [np.zeros((self.max_bbox_per_scale, 4)) for _ in range(3)]
-        bbox_count = np.zeros((3,))
+        #bboxes_xywh = [np.zeros((self.max_bbox_per_scale, 4)) for _ in range(3)]
+        bboxes_xywh = [np.zeros((self.max_bbox_per_scale, 4)) for _ in range(2)]
+        #bbox_count = np.zeros((3,))
+        bbox_count = np.zeros((2,))
 
         for bbox in bboxes:
             bbox_coor = bbox[:4]
@@ -336,10 +338,13 @@ class Dataset(object):
 
             iou = []
             exist_positive = False
-            for i in range(3):
+            #for i in range(3):
+            for i in range(2):
                 anchors_xywh = np.zeros((self.anchor_per_scale, 4))
-                anchors_xywh[:, 0:2] = (
-                    np.floor(bbox_xywh_scaled[i, 0:2]).astype(np.int32) + 0.5
+                #anchors_xywh[:, 0:2] = (
+                anchors_xywh[:, 0:1] = (
+                    #np.floor(bbox_xywh_scaled[i, 0:2]).astype(np.int32) + 0.5
+                    np.floor(bbox_xywh_scaled[i, 0:1]).astype(np.int32) + 0.5
                 )
                 anchors_xywh[:, 2:4] = self.anchors[i]
 
